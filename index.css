@@ -1,30 +1,33 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: cadetblue;
+    background-color: #361d2e;
+    color: #f6e8ea;
 }
 #navbar{
     margin-top: 5px;
     padding-top:  12px;
     height: 50px;
-    background-color: #0f1111;
+    background-color: #6B3F69;
 }
 button{
-    background-color: #f08804;
+    background-color: #64113f;
     height: 25px;
     width: 100px;
     border-radius: 5px;
 }
 #logo{
-    color: #f08804;
+    color: #C5B0CD;
     font-size: 25px;
-    background-color: #0f1111;
+    background-color: #6B3F69
+;
+    font-size: xx-large;
 }
 a{
     margin-right: 100px; 
     text-decoration: none;
-    background-color: #0f1111;
-    color: antiquewhite;
+    background-color: #6B3F69;
+    color: #f6e8ea;
 }
 #my_img{
     border-radius: 50%;
