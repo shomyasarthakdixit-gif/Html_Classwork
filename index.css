@@ -1,20 +1,40 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
+    background-color: cadetblue;
 }
 #navbar{
-    height: 60px;
+    margin-top: 5px;
+    padding-top:  12px;
+    height: 50px;
     background-color: #0f1111;
 }
 button{
     background-color: #f08804;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
 }
 #logo{
     color: #f08804;
     font-size: 25px;
+    background-color: #0f1111;
 }
 a{
-    margin-right: 200px;
+    margin-right: 100px; 
     text-decoration: none;
+    background-color: #0f1111;
+    color: antiquewhite;
+}
+#my_img{
+    border-radius: 50%;
+}
+input{
+    margin-left: 250px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+#content{
+    padding-bottom: 400px;
 }
