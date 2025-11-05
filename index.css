@@ -39,9 +39,48 @@ input{
     border-radius: 10px;
 }
 #content{
-    padding-bottom: 400px;
+    padding-bottom: 50px;
 }
 #pic{
     background-color: #361d2e;
     padding-left: 80px;
+}
+#All-Tasks{
+    padding-top: 50px;
+}
+#Task1{
+    background-color: #361d2e;
+}
+#Task2{
+    background-color: #361d2e;
+}
+#Task3{
+    background-color: #361d2e;
+}
+#Task4{
+    background-color: #361d2e;
+}
+#Task5{
+    background-color: #361d2e;
+}
+#Task6{
+    background-color: #361d2e;
+}
+#Task7{
+    background-color: #361d2e;
+}
+#Task8{
+    background-color: #361d2e;
+}
+#Task9{
+    background-color: #361d2e;
+}
+#Task10{
+    background-color: #361d2e;
+}
+#Task11{
+    background-color: #361d2e;
+}
+#Task12{
+    background-color: #361d2e;
 }
