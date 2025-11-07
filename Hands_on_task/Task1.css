@@ -3,7 +3,7 @@
     margin: 10px;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #1e2323;
 }
 #head-div{
     padding-bottom: 10px;
@@ -36,7 +36,7 @@ body{
     z-index:-1;
 }
 header{
-    background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
+    background:linear-gradient(135deg, #6e8efb, #a777e3);
     border-radius: 15px;
 }
 .Intro{
@@ -86,10 +86,10 @@ a{
     display: inline-block;
 }
 #End{
-    background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
+    background:linear-gradient(135deg, #6e8efb, #a777e3);
     border-radius: 15px;
     color: aliceblue;
     height: 50px;
-    width: 1442px;
+    width: 1420px;
     display: inline-block;
 }

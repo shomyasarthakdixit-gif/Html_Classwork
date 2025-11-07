@@ -6,7 +6,7 @@
     /* Basic page styling */
 body {
     font-family: 'Segoe UI', sans-serif;
-    margin: 0;
+    margin: 10px;
     padding: 20px;
     background-color: rgb(0, 101, 101);
 }
@@ -14,11 +14,12 @@ body {
     /* Page title */
 h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 25px;
 }
 
     /* Gallery grid layout */
 .gallery {
+    margin: 10px ;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -84,4 +85,14 @@ h1 {
     .product-image {
     height: 150px;
     }
+}
+header{
+    background:linear-gradient(135deg, #24b369, #2ffdd0);
+    border-radius: 15px;
+}
+#Desc{
+    color: beige;
+    margin: 0px;
+    text-align: left;
+    padding-left: 25px;
 }
