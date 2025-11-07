@@ -50,7 +50,46 @@ a{
     text-decoration: none;
     color: plum;
 }
-main{
+#bold{
+    color: azure;
+}
+#personal_info{
     background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
     border-radius: 15px;
-}    
+    color: aliceblue;
+    height: 220px;
+    width: 700px;
+    display: inline-block;
+}
+#Educational_Quali{
+    background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
+    border-radius: 15px;
+    color: aliceblue;
+    height: 220px;
+    width: 700px;
+    display: inline-block;
+}   
+#My_Hobbies{
+    background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
+    border-radius: 15px;
+    color: aliceblue;
+    height: 220px;
+    width: 700px;
+    display: inline-block;
+}
+#Contact_me{
+    background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
+    border-radius: 15px;
+    color: aliceblue;
+    height: 220px;
+    width: 700px;
+    display: inline-block;
+}
+#End{
+    background: conic-gradient(from 220deg, rgb(20, 20, 105), black);
+    border-radius: 15px;
+    color: aliceblue;
+    height: 50px;
+    width: 1442px;
+    display: inline-block;
+}
