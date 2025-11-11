@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+  margin-bottom: 220px;
+}
+
+section {
+  background: white;
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+
+button {
+  background: #004080;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #ddd;
+}
