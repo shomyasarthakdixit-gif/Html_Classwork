@@ -2,25 +2,37 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #fbf8f8;
+  color: #333333; 
 }
 
 header {
-  background:linear-gradient(135deg, #1e398f, #7d33d7);
+  background: linear-gradient(to right, #6A0DAD, #00BFFF);
   color: white;
   padding: 1em;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav a {
   margin: 0 1em;
   color: white;
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
-
+nav a:hover {
+  color: #da48d8; 
+}
 main {
+  background-color: #E6F0FA;
   padding: 2em;
   margin-bottom: 220px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+
 }
 
 section {
@@ -37,15 +49,24 @@ form input, form textarea, form select {
 }
 
 button {
-  background: #004080;
+  background-color: #6A0DAD;
   color: white;
-  padding: 0.5em 1em;
   border: none;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: #FF6F61; 
+}
 footer {
   text-align: center;
-  padding: 1em;
-  background: #ddd;
+  padding: 15px;
+  font-size: 14px;
+  color: #666666; 
+  margin-top: 250px;
 }

@@ -38,6 +38,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 40px;
+  transition: color 0.3s ease;
 }
 
 .login-section h2 {
@@ -57,7 +58,7 @@ label {
 
 input {
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -93,4 +94,9 @@ button:hover {
     font-size: larger;
     padding: 5px;
     margin-bottom: 5px;
+}
+.show-pass{
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
