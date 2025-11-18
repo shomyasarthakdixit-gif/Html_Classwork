@@ -100,3 +100,15 @@ input{
     padding-top: 10px;
     background-color: #361d2e;
 }
+.Blog{
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.txt{
+    padding-bottom: 7px;
+}
+#India{
+    padding-bottom: 20px;
+    background-color: #361d2e;
+    font-size: larger;
+}
