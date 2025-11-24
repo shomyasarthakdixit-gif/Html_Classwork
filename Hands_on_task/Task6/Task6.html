@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conditional Greeting</title>
+  <link rel="stylesheet" href="./Task6.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome!</h1>
+    <label class="switch">
+        <input type="checkbox" id="darkToggle" onchange="toggleDarkMode()" />
+        <span class="button">Change Mode.!</span> 
+    </label>
+    <div class="Change_moode">
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+      <input type="text" id="moodInput" placeholder="How are you feeling?" />
+      <button onclick="generateGreeting()">Greet Me</button>
+    </div>
+    <div id="greetingMessage" class="message"></div>
+  </div>
+  <script src="./Task6.js"></script>
+</body>
+</html>
