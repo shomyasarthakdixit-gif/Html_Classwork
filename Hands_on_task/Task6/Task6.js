@@ -21,7 +21,7 @@ function generateGreeting() {
       moodMessage = "It's great to see you smiling!";
       break;
     case "sad":
-      moodMessage = "Hope things get better soon.";
+      moodMessage = "Hope things get better for You.";
       break;
     case "excited":
       moodMessage = "Let's make today amazing!";
