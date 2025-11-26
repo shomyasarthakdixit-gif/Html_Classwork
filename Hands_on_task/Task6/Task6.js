@@ -26,6 +26,9 @@ function generateGreeting() {
     case "excited":
       moodMessage = "Let's make today amazing!";
       break;
+    case "fucked up":
+      moodMessage = "Hope so, you don't get more of it.";
+      break;
     default:
       moodMessage = "Wishing you a wonderful day!";
   }
