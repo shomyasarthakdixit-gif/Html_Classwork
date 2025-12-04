@@ -1,0 +1,79 @@
+/* ------------------ SCSS VARIABLES ------------------ */
+$card-radius: 15px;
+$padding: 1rem;
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #f7f7f7;
+}
+
+.dark-theme {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --card-bg: #333333;
+}
+
+/* ------------------ MIXIN ------------------ */
+@mixin card-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ------------------ GENERAL STYLING ------------------ */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.4s ease;
+
+  .title {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .theme-toggle {
+    display: flex;
+    justify-content: center;
+
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+  }
+}
+
+/* ------------------ PRODUCT CARD STYLING ------------------ */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: $padding;
+
+  .product-card {
+    background: var(--card-bg);
+    padding: $padding;
+    border-radius: $card-radius;
+    @include card-shadow;
+    transition: 0.3s ease;
+
+    h3 {
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+
+    .category {
+      font-size: 0.8rem;
+      background: #007bff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: white;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}

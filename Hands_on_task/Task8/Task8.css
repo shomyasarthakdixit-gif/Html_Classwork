@@ -1,0 +1,64 @@
+/* ------------------ SCSS VARIABLES ------------------ */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #f7f7f7;
+}
+
+.dark-theme {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --card-bg: #333333;
+}
+
+/* ------------------ MIXIN ------------------ */
+/* ------------------ GENERAL STYLING ------------------ */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.4s ease;
+}
+body .title {
+  text-align: center;
+  margin: 20px 0;
+}
+body .theme-toggle {
+  display: flex;
+  justify-content: center;
+}
+body .theme-toggle button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* ------------------ PRODUCT CARD STYLING ------------------ */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 1rem;
+}
+.product-container .product-card {
+  background: var(--card-bg);
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+.product-container .product-card h3 {
+  margin-bottom: 5px;
+}
+.product-container .product-card p {
+  font-size: 0.95rem;
+}
+.product-container .product-card .category {
+  font-size: 0.8rem;
+  background: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+.product-container .product-card:hover {
+  transform: translateY(-5px);
+}/*# sourceMappingURL=Task8.css.map */
